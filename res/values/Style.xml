@@ -1,0 +1,18 @@
+<resources>
+	<color name="VariableLabel">#00000000</color>
+	<style name="dialog" parent="@android:style/Theme.Dialog">
+		<item name="android:windowFullscreen">false</item><!-- 全屏 -->
+		<item name="android:windowFrame">@null</item>
+		<item name="android:windowIsFloating">true</item><!-- 是否浮现在activity之上 -->
+		<item name="android:windowIsTranslucent">false</item><!-- 半透明 -->
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:backgroundDimEnabled">false</item>
+		<item name="android:windowBackground">@color/VariableLabel</item><!-- 透明白色 -->
+		<item name="android:backgroundDimAmount">1</item>
+		<item name="android:windowAnimationStyle">@style/dialogWindowAnim</item><!-- 动画 -->
+	</style>
+	<style name="dialogWindowAnim" parent="android:Animation" mce_bogus="1">  
+        <item name="android:windowEnterAnimation">@anim/alphain</item><!-- 打开界面动画 -->
+        <item name="android:windowExitAnimation">@anim/alphaout</item><!-- 关闭界面动画 -->
+    </style>
+</resources>
