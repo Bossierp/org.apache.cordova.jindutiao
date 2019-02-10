@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
            id="org.apache.cordova.Jindutiao"
-      version="0.0.1">
+      version="0.0.2">
 
     <name>Android Jindutiao</name>
     <description>Cordova Android Jindutiao Plugin</description>

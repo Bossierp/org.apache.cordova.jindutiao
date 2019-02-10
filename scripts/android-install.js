@@ -22,7 +22,7 @@ module.exports = function (context) {
         return ;
     }
 
-    var targetDir  = path.join(projectRoot, "platforms", "android", "src", "org.apache.cordova.Jindutiao".replace(/\./g, path.sep));
+    var targetDir = path.join(projectRoot, "platforms", "android", "app", "src", "main", "java", "org.apache.cordova.Jindutiao".replace(/\./g, path.sep));
         targetFile = path.join(targetDir, "Jindutiao.java");
 
     if (['after_plugin_add', 'after_plugin_install', 'after_platform_add'].indexOf(context.hook) === -1) {

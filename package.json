@@ -1,0 +1,28 @@
+{
+  "name": "org.apache.cordova.Jindutiao",
+  "version": "0.0.2",
+  "description": "Cordova Android Jindutiao Plugin",
+  "cordova": {
+    "id": "org.apache.cordova.Jindutiao",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhichengChen/cordova-plugin-android-jindutiao.git"
+  },
+  "keywords": [
+    "cordova",
+    "android",
+    "jindutiao",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/ZhichengChen/cordova-plugin-android-jindutiao/issues"
+  },
+  "homepage": "https://github.com/ZhichengChen/cordova-plugin-android-jindutiao#readme"
+}
